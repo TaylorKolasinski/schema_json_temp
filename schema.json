@@ -1,0 +1,169 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net",
+  "type": "object",
+  "properties": {
+    "ACTIVITYID": {
+      "id": "http://jsonschema.net/activityid",
+      "type": "integer"
+    },
+    "CDT": {
+      "id": "http://jsonschema.net/cdt",
+      "type": "string",
+      "format": "date-time",
+      "dateTimeFormat": "yyyy-MM-dd HH:mm:ss[.SSSSSS]"
+    },
+    "DESCNAME": {
+      "id": "http://jsonschema.net/descname",
+      "type": "string"
+    },
+    "PARTNAME": {
+      "id": "http://jsonschema.net/partname",
+      "type": "string"
+    },
+    "NDT": {
+      "id": "http://jsonschema.net/ndt",
+      "type": "string",
+      "format": "date-time",
+      "dateTimeFormat": "yyyy-MM-dd HH:mm:ss[.SSSSSS]",
+      "sortKey": true
+    },
+    "NODEADDRESS": {
+      "id": "http://jsonschema.net/nodeaddress",
+      "type": "string"
+    },
+    "NODENAME": {
+      "id": "http://jsonschema.net/nodename",
+      "type": "string"
+    },
+    "PORTALNAME": {
+      "id": "http://jsonschema.net/portalname",
+      "type": "string"
+    },
+    "DETAIL": {
+      "id": "http://jsonschema.net/detail",
+      "type": "string"
+    },
+    "RDRNAME": {
+      "id": "http://jsonschema.net/rdrname",
+      "type": "string"
+    },
+    "UCBITLENGTH": {
+      "id": "http://jsonschema.net/ucbitlength",
+      "type": "string"
+    },
+    "PERSONNAME": {
+      "id": "http://jsonschema.net/personname",
+      "type": "string"
+    },
+    "LOGINADDRESS": {
+      "id": "http://jsonschema.net/loginaddress",
+      "type": "string"
+    },
+    "PERSONID": {
+      "id": "http://jsonschema.net/personid",
+      "distKey": true,
+      "type": "string"
+    },
+    "ACNAME": {
+      "id": "http://jsonschema.net/acname",
+      "type": "string"
+    },
+    "EVTNAME": {
+      "id": "http://jsonschema.net/evtname",
+      "type": "string"
+    },
+    "EVTPRIO": {
+      "id": "http://jsonschema.net/evtprio",
+      "type": "string"
+    },
+    "LOGINUSERNAME": {
+      "id": "http://jsonschema.net/loginusername",
+      "type": "string"
+    },
+    "BLADESLOT": {
+      "id": "http://jsonschema.net/bladeslot",
+      "type": "integer"
+    },
+    "user": {
+      "id": "user",
+      "type": "object",
+      "properties": {
+        "id": {
+          "id": "http://jsonschema.net/id",
+          "type": "string"
+        },
+        "uuid": {
+          "id": "http://jsonschema.net/uuid",
+          "type": "string"
+        },
+        "name": {
+          "id": "http://jsonschema.net/name",
+          "type": "string"
+        },
+        "email": {
+          "id": "http://jsonschema.net/email",
+          "type": "string"
+        },
+        "phone": {
+          "id": "http://jsonschema.net/phone",
+          "type": "string"
+        },
+        "location_uuid": {
+          "id": "http://jsonschema.net/location_uuid",
+          "type": "string"
+        },
+        "date_of_birth": {
+          "id": "http://jsonschema.net/date_of_birth",
+          "type": "string"
+        },
+        "kind": {
+          "id": "http://jsonschema.net/kind",
+          "type": "string"
+        }
+      }
+    },
+      "location": {
+        "id": "location",
+        "type": "object",
+        "properties": {
+          "id": {
+            "id": "http://jsonschema.net/id",
+            "type": "string"
+          },
+          "name": {
+            "id": "http://jsonschema.net/name",
+            "type": "string"
+          },
+          "uuid": {
+            "id": "http://jsonschema.net/uuid",
+            "type": "string"
+          },
+          "code": {
+            "id": "http://jsonschema.net/code",
+            "type": "string"
+          },
+          "opened": {
+            "id": "http://jsonschema.net/opened",
+            "type": "string"
+          },
+          "qtrak_api_key": {
+            "id": "http://jsonschema.net/qtrak_api_key",
+            "type": "string"
+          },
+          "qtrak_organization_id": {
+            "id": "http://jsonschema.net/qtrak_organization_id",
+            "type": "string"
+          },
+          "s2_server_id": {
+            "id": "http://jsonschema.net/s2_server_id",
+            "type": "string"
+          },
+          "s2_partition_name": {
+            "id": "http://jsonschema.net/s2_partition_name",
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
